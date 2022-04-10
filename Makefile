@@ -1,5 +1,5 @@
 build:
-	docker buildx build --platform linux/arm/v7 --tag aristaeus-dev:latest .
+	docker buildx build --push --platform linux/arm/v7 --tag pdulion/aristaeus-dev:latest .
 .PHONY: build
 
 config:
