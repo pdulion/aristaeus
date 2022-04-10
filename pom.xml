@@ -12,13 +12,10 @@
 	<groupId>com.dulion</groupId>
 	<artifactId>aristaeus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
 	<name>aristaeus</name>
 	<description>Greenhouse Management Software</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
-
 	<modules>
 		<module>app</module>
 	</modules>
